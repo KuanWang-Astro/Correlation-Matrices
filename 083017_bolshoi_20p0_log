@@ -1,0 +1,12 @@
+central:False
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+outfile:083017_bolshoi_20p0
+version:halotools_v0p4
+nproc:50
+Vmax:0.0
+td:0
+simname:bolshoi
+infile:['../ABMCMCfiles/corr1_wp20.0.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.0.covar.chain']
+Nparams:1000

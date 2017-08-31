@@ -1,0 +1,12 @@
+central:False
+redshift:0.0
+Lbox:500
+halofinder:rockstar
+outfile:083017_diemer500_20p0
+version:antonio
+nproc:50
+Vmax:0.0
+td:0
+simname:diemerL0500
+infile:['../ABMCMCfiles/corr1_wp20.0.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.0.covar.chain']
+Nparams:1000
