@@ -59,7 +59,9 @@ num_spheres = int(1e5)
 ##vpf
 
 pi_max = 60
-r_wp = np.logspace(-1, np.log10(Lbox)-1, 20)
+#r_wp = np.logspace(-1, np.log10(Lbox)-1, 20)
+r_wp = np.logspace(-1,np.log10(25),20)
+
 ##wp
 
 ##########################################################

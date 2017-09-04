@@ -25,7 +25,7 @@ class correlation(object):
     def plot_correlation_matrix(self):
         self.compute_correlation_matrix()
         plt.imshow(self.all_comparison,cmap='bwr',vmax=1,vmin=-1,interpolation='None')
-        plt.colorbar()
+        #plt.colorbar()
         plt.xticks((10,35,57),('wp','P(Ncic)','vpf'))
         plt.yticks((10,35,57),('wp','P(Ncic)','vpf'))
         plt.axhline(18.5,color='k')
