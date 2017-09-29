@@ -1,0 +1,12 @@
+central:False
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+outfile:090417_chinchilla2048_select_slm_20p0
+version:250-2048
+nproc:55
+Vmax:0.0
+td:0
+simname:chinchilla
+infile:['../ABMCMCfiles/corr1_wp20.0.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.0.covar.chain']
+Nparams:200
