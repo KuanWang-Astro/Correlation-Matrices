@@ -1,0 +1,11 @@
+Ljk:10
+central:False
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+outfile:chinchilla1024_20p0_jk
+version:250-1024
+nproc:55
+simname:chinchilla
+infile:['../ABMCMCfiles/corr1_wp20.0.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.0.covar.chain']
+Nparams:1000

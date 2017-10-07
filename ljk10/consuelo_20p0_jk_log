@@ -1,0 +1,11 @@
+Ljk:10
+central:False
+redshift:0.0
+Lbox:420
+halofinder:rockstar
+outfile:consuelo_20p0_jk
+version:halotools_v0p4
+nproc:55
+simname:consuelo
+infile:['../ABMCMCfiles/corr1_wp20.0.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.0.covar.chain']
+Nparams:1000

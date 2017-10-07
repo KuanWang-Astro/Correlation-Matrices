@@ -16,3 +16,10 @@ def decorated_hod_model():
 
 def standard_hod_model():
     return PrebuiltHodModelFactory('zheng07', threshold=-20)
+
+def decorated_hod_model_rsklypin():
+    cen_occ_model = AssembiasZheng07Cens(prim_haloprop_key='halo_mvir', sec_haloprop_key='halo_c_klypin')
+    cen_prof_model = TrivialPhaseSpace()
+    sat_occ_model = AssembiasZheng07Sats(prim_haloprop_key='halo_mvir', sec_haloprop_key='halo_c_klypin')
+    sat_prof_model = NFWPhaseSpace()
+    return HodModelFactory(centrals_occupation=cen_occ_model, centrals_profile=cen_prof_model, satellites_occupation=sat_occ_model, satellites_profile=sat_prof_model)
