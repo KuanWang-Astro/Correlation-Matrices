@@ -1,0 +1,12 @@
+central:False
+Nsidejk:10
+redshift:0.0
+Lbox:500
+halofinder:rockstar
+Nreals:500
+outfile:diemer500_20p5_jk_reals
+version:antonio
+nproc:55
+simname:diemerL0500
+infile:['../ABMCMCfiles/corr1_wp20.5.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.5.covar.chain']
+100617_jackknife_wp_HOD_samep_ngal.py

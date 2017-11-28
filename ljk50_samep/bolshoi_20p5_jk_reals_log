@@ -1,0 +1,12 @@
+central:False
+Nsidejk:5
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+Nreals:500
+outfile:bolshoi_20p5_jk_reals
+version:halotools_v0p4
+nproc:55
+simname:bolshoi
+infile:['../ABMCMCfiles/corr1_wp20.5.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.5.covar.chain']
+100617_jackknife_wp_HOD_samep_ngal.py

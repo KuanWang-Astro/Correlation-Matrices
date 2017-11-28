@@ -1,0 +1,10 @@
+Nsidejk:10
+redshift:0.0
+Lbox:500
+halofinder:rockstar
+outfile:diemer500_am
+version:antonio
+nproc:5
+simname:diemerL0500
+haloprop:halo_vmax
+wp_vpf_cic_AM.py

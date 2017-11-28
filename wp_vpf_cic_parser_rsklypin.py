@@ -151,7 +151,7 @@ def main(model_gen_func, params_fname, params_usecols, output_fname):
         else:
             halocat = CachedHaloCatalog(simname = args.simname, version_name = args.version,redshift = args.redshift, \
                                 halo_finder = args.halofinder)
-            halocat.halo_table['halo_c_klypin'] = halocat.halo_table['halo_mvir']/halocat.halo_table['halo_rs_klypin']
+            halocat.halo_table['halo_c_klypin'] = halocat.halo_table['halo_rvir']/halocat.halo_table['halo_rs_klypin']
             model.populate_mock(halocat)
             for i, output_data in enumerate(pool.map(calc_all_observables, params)):
                 if i%nproc == nproc-1:

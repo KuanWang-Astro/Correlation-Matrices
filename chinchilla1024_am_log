@@ -1,0 +1,9 @@
+Nsidejk:5
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+outfile:chinchilla1024_am
+version:250-1024
+nproc:5
+simname:chinchilla
+wp_vpf_cic_AM.py

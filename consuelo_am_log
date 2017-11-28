@@ -1,0 +1,9 @@
+Nsidejk:8
+redshift:0.0
+Lbox:420
+halofinder:rockstar
+outfile:consuelo_am
+version:halotools_v0p4
+nproc:5
+simname:consuelo
+wp_vpf_cic_AM.py

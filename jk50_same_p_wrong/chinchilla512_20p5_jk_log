@@ -1,0 +1,12 @@
+central:False
+Nsidejk:5
+redshift:0.0
+Lbox:250
+halofinder:rockstar
+Nreals:1000
+outfile:chinchilla512_20p5_jk
+version:250-512
+nproc:55
+simname:chinchilla
+infile:['../ABMCMCfiles/corr1_wp20.5.abfit.covar.chain', '../ABMCMCfiles/corr1_wp20.5.covar.chain']
+100617_jackknife_wp_HOD_samep_ngal.py
